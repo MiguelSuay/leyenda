@@ -1,16 +1,23 @@
 <ion-menu [content]="content">
-  <ion-header>
+  <ion-header class={{color}}>
     <ion-toolbar>
-      <ion-title>Menu</ion-title>
+      <ion-title>Choose your Clan</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <ion-content>
+  <ion-content class={{color}}>
     <ion-list>
       <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
         {{p.title}}
       </button>
     </ion-list>
+    <button ion-button style="background-color:#75768a" (click)="colorChange('crab')" full large><img src="../assets/mons/crab.png"  /></button>
+    <button ion-button style="background-color:#bfac62" (click)="colorChange('lion')" full large><img src="../assets/mons/lion.png"  /></button>
+    <button ion-button style="background-color:#2e7291" (click)="colorChange('crane')" full large><img src="../assets/mons/crane.png"  /></button>
+    <button ion-button style="background-color:#874335" (click)="colorChange('scorpion')" full large><img src="../assets/mons/scorpion.png"  /></button>
+    <button ion-button style="background-color:#715a87" (click)="colorChange('unicorn')" full large><img src="../assets/mons/unicorn.png"  /></button>
+    <button ion-button style="background-color:#c1885a" (click)="colorChange('phoenix')" full large><img src="../assets/mons/phoenix.png"  /></button>
+    <button ion-button style="background-color:#608373" (click)="colorChange('dragon')" full large><img src="../assets/mons/dragon.png"  /></button>
   </ion-content>
 
 </ion-menu>

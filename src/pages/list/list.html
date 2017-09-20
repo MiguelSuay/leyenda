@@ -3,21 +3,39 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>List</ion-title>
+    <ion-title>Search Guide</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-      <ion-icon [name]="item.icon" item-left></ion-icon>
-      {{item.title}}
-      <div class="item-note" item-right>
-        {{item.note}}
-      </div>
-    </button>
+    <ion-card-content>
+
+      <p>
+        <b>Important!</b> While using commands for the search any search by name must be specified by a search operator <b>name:</b>
+      </p>
+      <ion-list>
+        <ion-list-header>
+    <b>Search Operators</b>
+  </ion-list-header>
+        <ion-item>clan: -> search by especified clan</ion-item>
+        <ion-item>cost: -> search by fate cost</ion-item>
+        <ion-item>type: -> search by card type (Holding,character...)</ion-item>
+        <ion-item>deck: -> Either Dynasty or conflict</ion-item>
+        <ion-item>name: -> search by name</ion-item>
+
+        <ion-item>military: -> search by military </ion-item>
+        <ion-item>politic: -> search by politic </ion-item>
+      </ion-list>
+      <p>
+        Example of search: <b>clan:lion</b>
+      </p>
+
+    </ion-card-content>
+    <ion-card-content>
+
+    </ion-card-content>
+
   </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
+
 </ion-content>

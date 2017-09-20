@@ -5,7 +5,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { CardPage } from '../pages/card/card';
+import { RolesPage } from '../pages/roles/roles';
 
+import { ColorProvider } from "../providers/color/color";
 @Component({
   templateUrl: 'app.html'
 })
@@ -14,21 +17,25 @@ export class MyApp {
 
   rootPage: any = HomePage;
 
+
+
   pages: Array<{title: string, component: any}>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+  constructor(public platform: Platform,
+      public statusBar: StatusBar, public splashScreen: SplashScreen, public colorProvider : ColorProvider) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'Search', component: HomePage },
+      { title: 'Search Guidelines', component: ListPage },
+      { title: 'Clan Roles', component: RolesPage }
     ];
 
   }
 
   initializeApp() {
-    this.platform.ready().then(() => {
+      this.platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
       this.statusBar.styleDefault();
@@ -41,4 +48,19 @@ export class MyApp {
     // we wouldn't want the back button to show in this scenario
     this.nav.setRoot(page.component);
   }
+  colorChange(clan){
+    this.colorProvider.changeColor(clan + "Top",clan +"Bot");
+    this.nav.setRoot(HomePage);
+  }
+
+
+
+  //Old solution for color change
+  // colorCrab(){
+  //   console.log("working")
+  //   let color :any = document.getElementsByClassName("craneBot")
+  //   for (var i = 0; i < color.length; i++){
+  //     color[i].className = "craneTop";
+  //   }
+  // }
 }

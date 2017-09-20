@@ -1,0 +1,414 @@
+[
+  {
+    "name": "Above Question",
+    "ruling": "If an opponent's event instructs any player to \"choose\" a character, the character with Above Question cannot be choosen."
+  },
+  {
+    "name": "Adept of the Waves",
+    "ruling": "Multiple instances of the same keyword are redundant."
+  },
+  {
+    "name": "Admit Defeat",
+    "ruling": "Admit Defeat can only be played if there is only one participating character. Bowed characters are still participating."
+  },
+  {
+    "name": "Agasha Swordsmith",
+    "ruling": "Agasha Swordsmith can only find a card with the printed attachment cardtype. Monk characters that can be played as attachments (Tattooed Wanderer, Togashi Kazue) are not attachments while they're out of play."
+  },
+  {
+    "name": "Aggressive Moto",
+    "ruling": "Aggressive Moto cannot be declared as a defender, but can be moved to a conflict on the defending side by card effects."
+  },
+  {
+    "name": "Akodo Gunsō",
+    "ruling": "The Pride keyword resolves immediately when the conflict winner is determined, before any Reactions to winning/losing a conflict can be used."
+  },
+  {
+    "name": "Akodo Toturi",
+    "ruling": "Akodo Toturi's ability can be triggered if you claim the ring on defense. However, the attacking player gets the benefit of the ring effect (notice the wording here is different from Defend the Wall)."
+  },
+  {
+    "name": "Ambush",
+    "ruling": "When playing Ambush, you need to reveal the characters that you're going to put into play before your opponent gets the opportunity to cancel the event's effects."
+  },
+  {
+    "name": "Artisan Academy",
+    "ruling": "? If I use Artisan Academy to reveal the top card of the deck, then an effect puts that card someplace else (e.g. Shrewd Yasuki), can I still play it until the end of the phase?"
+  },
+  {
+    "name": "Asahina Storyteller",
+    "ruling": "Multiple instances of the same keyword are redundant."
+  },
+  {
+    "name": "Assassination",
+    "ruling": "Losing 3 honor is the cost of Assassination. By the time the ability's effects can be cancelled, costs are already paid, and honor is already lost."
+  },
+  {
+    "name": "Banzai!",
+    "ruling": "Paying 1 honor to \"resolve the ability twice\" is an optional part of the card's effect, not a cost. If you choose to do it, immediately go through steps 5-7 of the initiation sequence: choose a target (can be different or same), then the effect (the second +2 military) initiates and can be canceled, then it resolves (you may opt to lose 1 honor again, but you won't get to resolve the ability a third time)."
+  },
+  {
+    "name": "Bayushi Manipulator",
+    "ruling": "Effects that modify the value of the honor bid only affect the current bid, the setting on the dial is not physically adjusted."
+  },
+  {
+    "name": "Bayushi Shoju",
+    "ruling": "Discard if political skill is 0\" is a part of the lasting effect that applies until the end of the conflict. If Shoju's ability doesn't lower the character down to 0 skill immediately, but a subsequent effect during the same conflict does, the character will be discarded. If a replacement effect is used to prevent the character from leaving play (e.g. Reprieve, Stand Your Ground) but does not concurrently increase its political skill above 0, Shoju's effect will immediately reapply, and the character will be discarded again.\nIf Bayushi Shoju leaves the conflict after using his ability, the lasting effect will persist regardless."
+  },
+  {
+    "name": "Bayushi Yunako",
+    "ruling": "Bayushi Yunako cannot switch base skills on a character that has a dash (\"--\") for a skill (dash values cannot be modified or changed).\nIf Bayushi Yunako leaves the conflict after using her ability, the lasting effect will persist regardless."
+  },
+  {
+    "name": "Blackmail",
+    "ruling": "When you take control of a character, you do not take control of any attachments attached to that character.\nIf you take control of a character that has an attachment that says \"Attach only to characters you control\", that attachment is immediately discarded.\nIf you take control of a participating character that cannot participate in the current conflict on your side (e.g. Shiba Peacekeeper), it immediately bows and goes home."
+  },
+  {
+    "name": "Borderlands Defender",
+    "ruling": "Borderlands Defender can be bowed by the Water ring effect (rings are not cards).\nBorderlands Defender cannot be chosen to bow for For Shame! or Doji Gift Giver."
+  },
+  {
+    "name": "Born in War",
+    "ruling": "During a conflict, the contested ring does not count as unclaimed."
+  },
+  {
+    "name": "Breakthrough",
+    "ruling": "Breakthrough is played after participants of the first conflict go home bowed, and a new conflict starts immediately. There is no action window between conflicts in which you could ready a character in time for it to be declared as an attecker (e.g. Border Rider, I Am Ready)."
+  },
+  {
+    "name": "Calling in Favors",
+    "ruling": "If Yound Rumormonger redirects the dishonor, the cost is still considered to be paid, and the character that was originally selected for dishonor gets the attachment."
+  },
+  {
+    "name": "",
+    "ruling": " If Calling in Favors is used to dishonor a character and take control of an opponent's attachment that is attached to that same character (e.g. Cloud the Mind, Fiery Madness), the attachment stays in play."
+  },
+  {
+    "name": "Captive Audience",
+    "ruling": "Changing the conflict type does not affect what other conflicts the attacker can declare. What matters is which conflict type was originally declared.\nWhen the conflict type is changed, any characters that cannot participate in the conflict of the new type (have a dash (\"--\") for a skill, or have Pacifism attached) immediately go home bowed."
+  },
+  {
+    "name": "Charge!",
+    "ruling": "You cannot add fate to characters that are put into play via card effects.\nYou cannot move a character to a conflict if that character cannot participate in that conflict (has a dash (\"--\") for a skill, or a relevant constant ability, e.g. Shiba Peacekeeper, Pacifism)."
+  },
+  {
+    "name": "Contingency Plan",
+    "ruling": "Effects that modify the value of the honor bid only affect the current bid, the setting on the dial is not physically adjusted."
+  },
+  {
+    "name": "Court Games",
+    "ruling": "If you select the option to make your opponent dishonor a character, the target is chosen during the resolution of the ability's effects. At that point it is too late to cancel the initiation of effects (via e.g. Shiba Yōjimbō). Note that this is a non-standard template, usually you choose targets before the opportunity to cancel the initiation of effects (if the word \"choose\" is printed before the dash (\"--\") in the text of the ability)."
+  },
+  {
+    "name": "Court Mask",
+    "ruling": "Dishonoring a character is an effect of Court Mask's ability, not a cost. So you can use it even if attached character cannot be dishonored (already dishonored, or Steward of Law is participating in the conflict)."
+  },
+  {
+    "name": "Daimyō's Favor",
+    "ruling": "Daimyō's Favor can reduce the cost of characters played as attachments (Tattooed Wanderer, Togashi Kazue)."
+  },
+  {
+    "name": "Disdainful Remark",
+    "ruling": "The bonus provided by Disdainful Remark is fixed upon resolution. If the number of cards in the opponent's hand subsequently changes, the bonus is not affected."
+  },
+  {
+    "name": "Display of Power",
+    "ruling": "[contested] Display of Power is played right after the conflict winner is determined (in step 3.2.3). Normal ring effect is cancelled \"preemptively\", you immediately resolve the ring effect yourself, and claim the ring, all before losing 1 honor for the conflict being unopposed.\nYou cannot play two Displays of Power consecutively - after the first one resolves, there is nothing to cancel anymore, so the pre-Then part of the effect does nothing, and the post-Then part cannot attempt to resolve. See the entry for The Word \"Then\".\nYou can play Display of Power during a conflict at the Pilgrimage province. It will \"preemptively\" cancel the normal ring effects, then attempt to resolve the ring effect for you, which will be cancelled by Pilgrimage. Then you claim the ring. If the attacker subsequently breaks the province, the ring effect will not resolve (it has been cancelled)."
+  },
+  {
+    "name": "Doji Challenger",
+    "ruling": "You cannot move a character to a conflict if that character cannot participate in that conflict (has a dash (\"--\") for a skill, or a relevant constant ability, e.g. Shiba Peacekeeper, Pacifism)."
+  },
+  {
+    "name": "Doji Hotaru",
+    "ruling": "Doji Hotaru's ability can be triggered if you claim the ring on defense. However, the attacking player gets the benefit of the ring effect (notice the wording here is different from Defend the Wall)."
+  },
+  {
+    "name": "Duelist Training",
+    "ruling": "You cannot opt to discard cards if the number of cards in your hand is lower than your honor bid.\nYou can either give honor or discard cards from hand for the honor bid, but not a combination of both.\n? Can Duelist Training's ability target a bowed character?"
+  },
+  {
+    "name": "Elemental Fury",
+    "ruling": "Once the new ring becomes the contested ring, the attacking player takes all fate on it."
+  },
+  {
+    "name": "Endless Plains",
+    "ruling": "If Endless Plains is broken to discard the only attacker, the conflict does not end immediately, but rather continues as normal. The defending player can declare defenders, and both players can play characters from hand into the conflict, or use card effects to put characters into play or move them to the conflict. However, if both players count 0 skill during conflict resolution, the conflict resolves with no winner, and the contested ring is returned to the pool of unclaimed rings.\nIf Endless Plains is broken as a cost of its ability, even though technically its controller broke it, any card effects referencing the attacker or the conflict breaking a province can still trigger (e.g. Shinjo Altansarnai, For Greater Glory, Breakthrough).\nEndless Plains breaks as a cost of its ability (step 4); Shinjo Altansarnai can react to a province being broken (nested ability sequence), before she is chosen as a target (step 5) and discarded (step 7)."
+  },
+  {
+    "name": "Fallen in Battle",
+    "ruling": "Reactions to winning/losing a conflict are played after the skill you won by is fixed. Playing Fallen in Battle will not help you win unopposed, win by 5+ skill, or break a province."
+  },
+  {
+    "name": "For Shame!",
+    "ruling": "Your opponent must select an option that can change the game state (cannot choose to bow a bowed character, or dishonor a dishonored character)."
+  },
+  {
+    "name": "Forged Edict",
+    "ruling": "Only the effects of the ability are cancelled. Costs remain paid, and the use of the ability is still counted for any Limit or Max (including the general \"once per round\" limitation for triggered abilities)."
+  },
+  {
+    "name": "Good Omen",
+    "ruling": "Effects that modify the value of the honor bid only affect the current bid, the setting on the dial is not physically adjusted."
+  },
+  {
+    "name": "Grasp of Earth",
+    "ruling": "Grasp of Earth does not prevent characters from being put into play."
+  },
+  {
+    "name": "Guest of Honor",
+    "ruling": "The conflict ends only after all participating characters move home bowed, so Guest of Honor prevents your opponent from playing any events that react to winning/losing the conflict, breaking a province, resolving ring effects, or claiming the contested ring."
+  },
+  {
+    "name": "Guidance of the Ancestors",
+    "ruling": " The general \"once per round\" limit applies to abilities in out-of-play areas as well. You cannot trigger Guidance of the Ancestors, have its effect cancelled by Hida Kisada, then trigger it again. [waiting for Gaffa to post Nate's answer]"
+  },
+  {
+    "name": "Height of Fashion",
+    "ruling": "Height of Fashion can be played during the action window before a conflict (between steps 3.1 and 3.2), or during action windows in Draw, Fate, or Regroup phases."
+  },
+  {
+    "name": "Hida Guardian",
+    "ruling": "The bonus provided by Hida Guardian is fixed upon resolution. If the number of holdings subsequently changes, the bonus is not affected.\nIf Hida Guardian leaves the conflict after using his ability, the lasting effect will persist regardless."
+  },
+  {
+    "name": "Hida Kisada",
+    "ruling": "If your opponent uses an action, then Hida Kisada enters play, then your opponent uses another action, that last action will not be the first one during this conflict, so Kisada will not cancel it.\nHida Kisada cancels the effects of an action ability during their resolution (step 7), not during their initiation (step 6), when most other cancel effects work."
+  },
+  {
+    "name": "Hiruma Yōjimbō",
+    "ruling": "Hiruma Yōjimbō cannot be declared as an attacker, but can be moved to a conflict on the attacking side by card effects."
+  },
+  {
+    "name": "I Can Swim",
+    "ruling": "Effects that modify the value of the honor bid only affect the current bid, the setting on the dial is not physically adjusted."
+  },
+  {
+    "name": "Ide Trader",
+    "ruling": "Ide Trader's ability can be triggered after he himself is moved to a conflict."
+  },
+  {
+    "name": "Ikoma Eiji",
+    "ruling": "Ikoma Eiji's ability cannot put characters straight into the conflict (specifically, you cannot combo it with Deathseeker)."
+  },
+  {
+    "name": "Isawa Atsuko",
+    "ruling": "Isawa Atsuko's ability only affects characters that are already participating in the conflict. Any characters that enter the conflict after her ability has resolved are not affected."
+  },
+  {
+    "name": "Isawa Kaede",
+    "ruling": " When an effect instructs a player to resolve multiple ring effects the first player chooses the order in which they resolve."
+  },
+  {
+    "name": "",
+    "ruling": " Isawa Kaede does not let you resolve Void twice - a ring either has a certain element, or it doesn't."
+  },
+  {
+    "name": "",
+    "ruling": " If a player plays Display of Power after Isawa Kaede wins the conflict as an attacker, that player gets to resolve all of the contested ring's effects."
+  },
+  {
+    "name": "Isawa Mori Seidō",
+    "ruling": "Glory count happens before the conflict phase ends, so Isawa Mori Seidō can help you claim the Imperial Favor."
+  },
+  {
+    "name": "Ishiken Initiate",
+    "ruling": "Ishiken Initiate gets a bonus for each ring claimed by any player. The currently contested ring does not count."
+  },
+  {
+    "name": "Keeper Initiate",
+    "ruling": "Keeper Initiate reacts to claiming the ring, which occurs after the ring effects resolve (you cannot put him into play, then honor him vai ring of Fire).\n Keeper Initiate will not trigger if you claim a ring that gained the relevant element temporarily during a conflict (e.g. via Seeker of Knowledge, Isawa Kaede)."
+  },
+  {
+    "name": "Kitsuki Investigator",
+    "ruling": "Max 1 per conflict\" means that you can only trigger one Kitsuki Investigator per conflict, even if you control several of them."
+  },
+  {
+    "name": "Kitsuki Yaruma",
+    "ruling": "[contested] If Kitsuki Yaruma enters play during a conflict, and chooses the attacked province - turn it facedown, then immediately turn it faceup."
+  },
+  {
+    "name": "Kuroi Mori",
+    "ruling": "Changing the conflict type does not affect what other conflicts the attacker can declare. What matters is which conflict type was originally declared.\nWhen the conflict type is changed, any characters that cannot participate in the conflict of the new type (have a dash (\"--\") for a skill, or have Pacifism attached) immediately go home bowed.\nOnce the new ring becomes the contested ring, the attacking player takes all fate on it."
+  },
+  {
+    "name": "Levy",
+    "ruling": "Your opponent must select an option that can change the game state (cannot choose to give fate is he has none)."
+  },
+  {
+    "name": "Magnificent Kimono",
+    "ruling": "The Pride keyword resolves immediately when the conflict winner is determined, before any Reactions to winning/losing a conflict can be used.\nMultiple instances of the same keyword are redundant."
+  },
+  {
+    "name": "Mantra of Fire",
+    "ruling": "[contested] Mantra of Fire reacts to a Fire conflict being declared. It does not check the current game state for whether the current conflict element is Fire, so it can still be played after the contested ring is swapped (via Elemental Fury, Kuroi Mori).\n? Do reactiong to a conflict being declared and to a province being turned faceup share the same reaction window?"
+  },
+  {
+    "name": "Mirumoto Prodigy",
+    "ruling": "Only one character can be declared as a defender, but other characters can be played into or moved to the conflict."
+  },
+  {
+    "name": "Mountain's Anvil Castle",
+    "ruling": "The bonus provided by Mountain's Anvil Castle is fixed upon resolution. If the number of attachments subsequently changes, the bonus is not affected."
+  },
+  {
+    "name": "Niten Master",
+    "ruling": "You can attach a third Restricted attachment to Niten Master, discard one of them so that there are only two left, then trigger Niten Master's ability."
+  },
+  {
+    "name": "Obstinate Recruit",
+    "ruling": "You can play Obstinate Recruit if you are less honorable than an opponent, but it will immediately be discarded."
+  },
+  {
+    "name": "Outwit",
+    "ruling": "Outwit can target a character with a dash (\"--\") for political skill (treat dash as 0).\nBowed characters still count their skill value for Outwit."
+  },
+  {
+    "name": "Pacifism",
+    "ruling": "Pacifism can be played during the action window before a conflict (between steps 3.1 and 3.2), or during action windows in Draw, Fate, or Regroup phases.\nIf attached character somehow ends up participating in a military conflict, it immediately goes home bowed."
+  },
+  {
+    "name": "Radiant Orator",
+    "ruling": "Do not count claimed rings towards the glory count."
+  },
+  {
+    "name": "Rally to the Cause",
+    "ruling": "Changing the conflict type does not affect what other conflicts the attacker can declare. What matters is which conflict type was originally declared.\nWhen the conflict type is changed, any characters that cannot participate in the conflict of the new type (have a dash (\"--\") for a skill, or have Pacifism attached) immediately go home bowed."
+  },
+  {
+    "name": "Reprieve",
+    "ruling": "Reprieve can be used to prevent a sacrifice. However, if a card ability required a sacrifice as a cost (before the dash (\"--\")), the ability will be aborted, and its effects will not resolve."
+  },
+  {
+    "name": "Rout",
+    "ruling": "Rout can target a character with a dash (\"--\") for military skill (treat dash as 0).\nBowed characters still count their skill value for Rout."
+  },
+  {
+    "name": "Savvy Politician",
+    "ruling": "Savvy Politician triggers when it changes status from Dishonored to Ordinary, or from Ordinary to Honored  (\"is honored\" is different from \"becomes honored\").\n? Do reactiong to being honored by Pride and to winning a conflict share the same reaction window?"
+  },
+  {
+    "name": "Secret Cache",
+    "ruling": "If you use Secret Cache to find an event card with a reaction to a conflict being declared (e.g. Mantra of Fire), you can play it during the same reaction window."
+  },
+  {
+    "name": "Seeker Initiate",
+    "ruling": " Seeker Initiate will not trigger after you claim a ring that gained the relevant element temporarily during a conflict (e.g. via Seeker of Knowledge, Isawa Kaede)."
+  },
+  {
+    "name": "Shameful Display",
+    "ruling": "Shameful Display can only be triggered if there are at least 2 characters participating in the conflict. When you resolve the ability's effects, you can opt to honor an honored character, or dishonor a dishonored character (because the post-dash part of the ability does not use the word \"choose\")."
+  },
+  {
+    "name": "Shiba Peacemaker",
+    "ruling": "If Shiba Peacemaker somehow ends up participating as an attacker, he immediately goes home bowed."
+  },
+  {
+    "name": "Shiba Tsukune",
+    "ruling": "When the phase ends\" interrupts trigger before \"until the end of the phase\" lasting effects expire, and before \"at the end of the phase\" delayed effects resolve.\n When an effect instructs a player to resolve multiple ring effects the first player chooses the order in which they resolve."
+  },
+  {
+    "name": "Shiba Yōjimbō",
+    "ruling": "Only the effects of the ability are cancelled. Costs remain paid, and the use of the ability is still counted for any Limit or Max (including the general \"once per round\" limitation for triggered abilities).\nShiba Yōjimbō cancels the effects of an ability when they initiate (in step 6), only if a Shugenja character has already been chosen as a target (in step 5; the ability's text must use the word \"choose\" before the dash (\"--\")). Some abilities choose targets when the effects resolve (in step 7; \"choose\" is after the dash, e.g. Court Games, Shosuro Miyako), at that point it is too late to cancel their initiation."
+  },
+  {
+    "name": "Shinjo Tatsuo",
+    "ruling": "Shinjo Tatsuo's ability cannot be used if he is already participating in a conflict (the targering requirement is to choose himself and another character, but targets can only be chosen if they can be affected by the ability's effects; since Shinjo Tatsuo cannot affect himself, he cannot choose himself as a target, which means that you cannot satisfy targeting requirements, so you cannot attempt to initiate the ability at all)."
+  },
+  {
+    "name": "Shiro Nishiyama",
+    "ruling": "Shiro Nishiyama only affects characters that are already participating in the conflict. Any characters that enter the conflict after the ability has resolved are not affected."
+  },
+  {
+    "name": "Shosuro Miyako",
+    "ruling": "Your opponent must select an option that can change the game state (cannot choose to dishonor a dishonored character).\nIf your opponent selects the option to dishonor a character, the target is chosen during the resolution of the ability's effects. At that point it is too late to cancel the initiation of effects (via e.g. Shiba Yōjimbō). Note that this is a non-standard template, usually you choose targets before the opportunity to cancel the initiation of effects (if the word \"choose\" is printed before the dash (\"--\") in the text of the ability)."
+  },
+  {
+    "name": "Stand Your Ground",
+    "ruling": "Stand Your Ground can be used to prevent a sacrifice. However, if a card ability required a sacrifice as a cost (before the dash (\"--\")), the ability will be aborted, and its effects will not resolve."
+  },
+  {
+    "name": "Steadfast Witch Hunter",
+    "ruling": "Steadfast Witch Hunter can sacrifice herself to ready another character."
+  },
+  {
+    "name": "Steward of Law",
+    "ruling": "Steward of Law prevents characters from changing status from Ordinary to Dishonored; they can still go from Honored to Ordinary (\"become dishonored\" is different from \"be dishonored\")."
+  },
+  {
+    "name": "Supernatural Storm",
+    "ruling": "The bonus provided by Supernatural Storm is fixed upon resolution. If the number of your Shugenja characters subsequently changes, the bonus is not affected."
+  },
+  {
+    "name": "Tattooed Wanderer",
+    "ruling": "Characters played as attachments do not provide their printed skills as bonuses.\nMultiple instances of the same keyword are redundant."
+  },
+  {
+    "name": "Togashi Kazue",
+    "ruling": "Characters played as attachments do not provide their printed skills as bonuses."
+  },
+  {
+    "name": "Togashi Yokuni",
+    "ruling": "If Togashi Yokuni has Way of the Dragon attached, he cannot use his own ability twice (because it says \"Max\", not \"Limit\"), but he can use the gained ability twice.\n\"Max\" is per ability per card title per player. If Togashi Yokuni gains the ability of Kitsuki Investigator, both characters can use that ability this round (they have different titles). If Yokuni gains the ability of an opponent's Yokuni, he cannot use that ability (no infinite loop).\nTogashi Yokuni can gain the ability printed on Adept of Shadows, and use it to go to your hand. In this case, if you need to discard a card from hand at random (e.g. for losing an Earth conflict), if you use different sleeves for your dynasty cards and your conflict cards, you will need to use a method of randomness other than letting your opponent to pick a card from your hand (for example, use dice).\n Togashi Yokuni can gain an ability printed on a character blanked by Cloud the Mind."
+  },
+  {
+    "name": "Vengeful Berserker",
+    "ruling": "Doubling modifiers apply after all +/- modifiers, regardless of the order of application of effects. So if you trigger Vengeful Berserker's ability, then give him a +X skill bonus, that bonus is doubled.\n? When Vengeful Berserker participates in a military duel, if his doubling effect is active, does the honor mid modifier get doubled?"
+  },
+  {
+    "name": "Voice of Honor",
+    "ruling": "Only the effects of the ability are cancelled. Costs remain paid, and the use of the ability is still counted for any Limit or Max (including the general \"once per round\" limitation for triggered abilities)."
+  },
+  {
+    "name": "Warrior Poet",
+    "ruling": "Warrior Poet's ability only affects characters that are already participating in the conflict. Any characters that enter the conflict after the ability has resolved are not affected.\nIf Warrior Poet leaves the conflict after using his ability, the lasting effect will persist regardless."
+  },
+  {
+    "name": "Watch Commander",
+    "ruling": "Players play cards from hand, or from provinces during the dynasty phase. Putting cards into play or using abilities on cards in play is not considered to be playing those cards.\nWatch Commander triggers after the effects of an ability initiate (step 6), but before they resolve (step 7). So if a player plays Let Go or Assassinate, Watch Commander will trigger before it is discarded."
+  },
+  {
+    "name": "Way of the Dragon",
+    "ruling": "Way of the Dragon does not work with abilities that say \"Max X per [period]\" (\"Limit\" applies to one particular card, \"Max\" applies to all cards with the same title)."
+  },
+  {
+    "name": "Way of the Lion",
+    "ruling": " Way of the Lion actually modifies your base military skill. Playing two of them will apply a x4 modifier to your base skill. Bayushi Yunako will swap it with the base political skill value (timestamp order, no layers)."
+  },
+  {
+    "name": "Way of the Phoenix",
+    "ruling": " If you choose a ring that gained other elements during a conflict (e.g. via Seeker of Knowledge, Isawa Kaede), the effect will prevent your opponent from initiating conflicts with any of those elements until the end of the phase."
+  },
+  {
+    "name": "Yōjin no Shiro",
+    "ruling": "Yōjin no Shiro only affects characters that are already attacking. Any characters that enter the conflict after the ability has resolved are not affected."
+  },
+  {
+    "name": "Yogo Hiroue",
+    "ruling": "Yogo Hiroue can move bowed characters to a conflict.\nIf you don't move a character to the conflict, you do not get to resolve the post-Then effect.\nYou cannot move a character to a conflict if that character cannot participate in that conflict (has a dash (\"--\") for a skill, or a relevant constant ability, e.g. Shiba Peacekeeper, Pacifism)."
+  },
+  {
+    "name": "Young Rumormonger",
+    "ruling": "If Young Rumormonger is used to change the recipient of dishonor when paying costs, the cost is still considered to be paid (e.g. Forged Edict, Spies at Court, Calling in Favors)."
+  },
+  {
+    "name": "",
+    "ruling": ""
+  },
+  {
+    "name": "",
+    "ruling": ""
+  },
+  {
+    "name": "Restricted",
+    "ruling": "Can I attach a third Restricted attachment to a character? If yes, can I choose to discard that same third attachment? If yes, can Niten Master trigger off a discarded third attachment? (in view of the ruling on Seeker of Knowledge/Isawa Kaede + Keeper/Seeker Initiate)"
+  },
+  {
+    "name": "Replacement Effects",
+    "ruling": "Which rules for Replacement Effects get overridden by the rules for Would, and which still apply? (inconsistency between Yound Rumormonger + Callin In Favors / Forged Edict and Reprieve + Vengeful Berserker)"
+  },
+  {
+    "name": "Cannot Participate",
+    "ruling": "Ability active while out of play? Why cannot I Change Shiba Peacemaker while attacking?"
+  }
+]

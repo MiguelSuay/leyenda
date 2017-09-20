@@ -14,3 +14,66 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+$craneTop: #2e7291;
+$craneBot: #a1c2d2;
+
+.craneTop * {
+  background-color: $craneTop !important;
+}
+.craneBot * {
+  background-color: $craneBot !important;
+}
+$scorpionTop: #874335;
+$scorpionBot: #eddacc;
+
+.scorpionTop * {
+  background-color: $scorpionTop !important;
+}
+.scorpionBot * {
+  background-color: $scorpionBot !important;
+}
+$unicornTop: #715a87;
+$unicornBot: #e6e1e8;
+
+.unicornTop * {
+  background-color: $unicornTop !important;
+}
+.unicornBot * {
+  background-color: $unicornBot !important;
+}
+$phoenixTop: #c1885a;
+$phoenixBot: #fbe0cd;
+
+.phoenixTop * {
+  background-color: $phoenixTop !important;
+}
+.phoenixBot * {
+  background-color: $phoenixBot !important;
+}
+$dragonTop: #608373;
+$dragonBot: #dfe4dd;
+
+.dragonTop * {
+  background-color: $dragonTop !important;
+}
+.dragonBot * {
+  background-color: $dragonBot !important;
+}
+$lionTop: #bfac62;
+$lionBot: #f5e9d1;
+
+.lionTop * {
+  background-color: $lionTop !important;
+}
+.lionBot * {
+  background-color: $lionBot !important;
+}
+$crabTop: #75768a;
+$crabBot: #e8e4e3;
+
+.crabTop * {
+  background-color: $crabTop !important;
+}
+.crabBot * {
+  background-color: $crabBot !important;
+}
